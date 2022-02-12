@@ -7,7 +7,7 @@ from setuptools import find_packages
 
 INSTALL_REQUIRES = [
     "torch == 1.10.2",
-    "transformers = 2.8.0",
+    "transformers == 2.8.0",
 ]
 
 setup(
