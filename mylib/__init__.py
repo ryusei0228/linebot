@@ -13,7 +13,7 @@ from .mylib import (
     EncoderDecoder,
     evaluate,
     gelu,
-    FFN,
+    ffn,
     Generator,
     subsequent_mask,
     Tokenizer,
