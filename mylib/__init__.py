@@ -1,5 +1,6 @@
 from .mylib import (
     line,
+    prep,
     Config,
     build_decoder,
     Decoder,
