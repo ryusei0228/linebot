@@ -17,6 +17,10 @@ from .mylib import (
     Generator,
     subsequent_mask,
     Tokenizer,
+    AttentionLayer,
+    SelfAttention,
+    SourceTargetAttention,
+    MultiHeadAttention,
 )
 
 __version__ = '0.1.0'
