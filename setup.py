@@ -6,8 +6,6 @@ from setuptools import setup
 from setuptools import find_packages
 
 INSTALL_REQUIRES = [
-    "-f https://download.pytorch.org/whl/torch_stable.html"
-    "torch == 1.10.2+cpu",
     "transformers == 2.8.0",
 ]
 
