@@ -17,4 +17,9 @@ setuptools.setup(
     include_package_data = True,
     zip_safe = False,
     install_requires = INSTALL_REQUIRES,
+    classifiers = [
+        "Programming Language :: Python :: 3.8.12",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ]
 )
