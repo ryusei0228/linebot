@@ -9,7 +9,7 @@ INSTALL_REQUIRES = [
     "transformers == 2.8.0",
 ]
 
-setup(
+setuptools.setup(
     name = "mylib",
     version = "0.1.0",
     url="https://github.com/ryusei0228/linebot.git",
