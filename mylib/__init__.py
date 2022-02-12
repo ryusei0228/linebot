@@ -15,7 +15,7 @@ from .mylib import (
     gelu,
     FFN,
     Generator,
-    subsequent_mask,
+    subsequent,
     Tokenizer,
 )
 
