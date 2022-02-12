@@ -5,7 +5,7 @@ import EncoderDecoder as E_D
 from EncoderDecoder import EncoderDecoder
 import evaluate as ev
 
-def app_line(message):
+def prep:
     device = torch.device("cpu")
 
     state_dict = torch.load(f'{Config.data_dir}/{Config.fn}.pth', map_location=device)
@@ -17,13 +17,13 @@ def app_line(message):
     model.eval()
     model.freeze()
 
-    while True:
-        s = message
-        if s == "q":
-           break
-        print("BOT>", end = "")
-        text = ev.evaluate(Config, s, tokenizer, model, device)
-        print(text)
+def line(message):
+    s = message
+    if s == "q":
+        break
+    print("BOT>", end = "")
+    text = ev.evaluate(Config, s, tokenizer, model, device)
+    print(text)
 
 
 
